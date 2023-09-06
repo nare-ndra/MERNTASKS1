@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK7C</title>
+    <style>
+        table{
+            background-color: rgb(159, 38, 14);
+            color: white;
+            padding: 15px;
+            border-collapse: collapse;
+        }
+        #c2 {
+            background-color: rgb(159, 38, 14);
+            text-align: center;  
+            color: white;
+            border-spacing: 20px;
+}
+td,tr{
+    padding: 10px;
+    border-collapse: collapse;
+    padding-left: 50px;
+    font-size: large;
+    border: 1px;
+}
+.c1{
+    color: black;
+    background-color: white;
+    font-size: large;
+    width: 300px;
+    padding: 5px;
+    border: 1px;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+input{
+    padding: 5px;
+    
+}
+
+    </style>
+</head>
+<body><table id="c1">
+    <form><table width="600" border="1"><tr><td>
+        <label>Name</label>
+    </td>
+<td>  <input type="text" placeholder="Enter your name"></td></tr>
+<tr><td>
+    <label>Email</label>
+</td>
+<td>  <input type="email" placeholder="Enter your Email" ></td></tr>
+<tr><td>
+    <label>Password</label>
+</td>
+<td>  <input type="password" ></td></tr>
+<tr><td>
+    <label>PhoneNo</label>
+</td>
+<td>  <input type="number" ></td></tr>
+<tr>
+    <td>
+        <label>Gender</label>
+    </td>
+    <td>
+        <input type="radio" name="gender">Male
+       <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Other
+    </td>
+</tr>
+<tr>
+    <td>
+        <label>Languages Known</label></td>
+        <td><input type="checkbox"/>Telugu
+        <input type="checkbox"/>English
+        <input type="checkbox"/>Hindi
+        <input type="checkbox"/>Kannada
+    </td>
+</tr>
+<tr><td>
+    <label>Zipcode</label>
+</td>
+<td>  <input type="number" ></td></tr>
+<tr><td>
+    <label >About</label>
+</td>
+<td>  <textarea placeholder="Write about yourself" ></textarea></td></tr>
+      <tr>
+        <td colspan="2" id="c2" ><input class="c1" type="button" value="Register" /></td>
+      </tr>
+    </table></form>
+</body>
+</html>
